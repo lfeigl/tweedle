@@ -1,0 +1,37 @@
+{
+  "name": "tweedle",
+  "version": "0.0.0",
+  "description": "Open API for downloading all media of a Twitter profile.",
+  "main": "./dist/index.js",
+  "files": [
+    "./dist"
+  ],
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "build": "rm --recursive --force ./dist && tsc",
+    "build-watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfeigl/tweedle.git"
+  },
+  "keywords": [
+    "open",
+    "api",
+    "twitter",
+    "media",
+    "download"
+  ],
+  "author": "Luca Feigl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfeigl/tweedle/issues"
+  },
+  "homepage": "https://github.com/lfeigl/tweedle#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}
