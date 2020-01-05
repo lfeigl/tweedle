@@ -10,7 +10,7 @@
     "start": "node ./dist/index.js",
     "build": "rm --recursive --force ./dist && tsc",
     "build-watch": "tsc --watch",
-    "lint": "eslint --ext .js,.ts ./src"
+    "lint": "eslint --ext .ts ./src"
   },
   "repository": {
     "type": "git",
